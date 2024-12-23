@@ -11,3 +11,10 @@ int main()
 
     return 0;
 }
+void display()
+{
+  system("cls");
+  double balance = 0;
+  double cash;
+  int choice;
+}
