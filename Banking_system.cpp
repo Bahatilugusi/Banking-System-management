@@ -68,3 +68,19 @@ switch (choice)
     }
   } while (choice != 6);
 }
+
+void simBanking()
+{
+  system("cls");
+m:
+  int choice;
+  double amount;
+  cout << "\n\n\t-------SIMBANKING--------\n";
+  cout << "\n1. EirtelMoney";
+  cout << "\n2. HaloPesa";
+  cout << "\n3. TigoPesa";
+  cout << "\n4. AzamPesa";
+  cout << "\n5. Back to Main Menu";
+  cout << "\n\tPlease select your choice: ";
+  cin >> choice;
+
