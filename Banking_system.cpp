@@ -8,7 +8,7 @@ void simBanking();
 
 int main()
 {
-
+    display();
     return 0;
 }
 void display()
@@ -30,8 +30,8 @@ void display()
     cout << "\n6. Exit.!";
     cout << "\n\tPlease select your choice: ";
     cin >> choice;
-  
-  switch (choice)
+
+switch (choice)
     {
     case 1:
       account();
