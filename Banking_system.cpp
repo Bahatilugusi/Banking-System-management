@@ -8,6 +8,7 @@ void simBanking();
 
 int main()
 {
+     system("cls");
     display();
     return 0;
 }
