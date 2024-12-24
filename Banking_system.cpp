@@ -120,3 +120,14 @@ m:
   }
   goto m;
 }
+
+void account()
+{
+m:
+  system("cls");
+
+  string jina;
+  string password;
+  int id;
+  char choice;
+
