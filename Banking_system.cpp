@@ -98,4 +98,16 @@ m:
     cout << "\nTransaction of $" << amount << " to HaloPesa is succefully.\n\n";
     break;
 
+     case 3:
+    cout << "Enter Amout of Money You want to transfer: ";
+    cin >> amount;
+    cout << "\nTransaction of $" << amount << " to GigoPesa is succefully.\n\n";
+    break;
+
+  case 4:
+    cout << "Enter Amout of Money You want to transfer: ";
+    cin >> amount;
+    cout << "\nTransaction of $" << amount << " to AzamPesa is succefully.\n\n";
+    break;
+
   }
