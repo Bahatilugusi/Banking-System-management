@@ -84,3 +84,11 @@ m:
   cout << "\n\tPlease select your choice: ";
   cin >> choice;
 
+  switch (choice)
+  {
+  case 1:
+    cout << "Enter Amout of Money You want to transfer: ";
+    cin >> amount;
+    cout << "\nTransaction of $" << amount << " to EirtelMoney is succefully.\n\n";
+    break;
+  }
