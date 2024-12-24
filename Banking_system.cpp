@@ -110,4 +110,13 @@ m:
     cout << "\nTransaction of $" << amount << " to AzamPesa is succefully.\n\n";
     break;
 
+     case 5:
+    display();
+    break;
+
+  default:
+    cout << "\n\tInvalid choice!, please chouse from the Menue\n\n";
+    break;
   }
+  goto m;
+}
