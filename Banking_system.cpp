@@ -8,9 +8,9 @@ void simBanking();
 
 int main()
 {
-     system("cls");
-    display();
-    return 0;
+  system("cls");
+  display();
+  return 0;
 }
 void display()
 {
@@ -19,7 +19,7 @@ void display()
   double cash;
   int choice;
 
-   do
+  do
   {
     cout << "\n\t  Welcome To Bank Account Mnagement System";
     cout << "\n\t******************************************";
@@ -32,7 +32,7 @@ void display()
     cout << "\n\tPlease select your choice: ";
     cin >> choice;
 
-switch (choice)
+    switch (choice)
     {
     case 1:
       account();
@@ -92,13 +92,13 @@ m:
     cout << "\nTransaction of $" << amount << " to EirtelMoney is succefully.\n\n";
     break;
 
-     case 2:
+  case 2:
     cout << "Enter Amout of Money You want to transfer: ";
     cin >> amount;
     cout << "\nTransaction of $" << amount << " to HaloPesa is succefully.\n\n";
     break;
 
-     case 3:
+  case 3:
     cout << "Enter Amout of Money You want to transfer: ";
     cin >> amount;
     cout << "\nTransaction of $" << amount << " to GigoPesa is succefully.\n\n";
@@ -110,7 +110,7 @@ m:
     cout << "\nTransaction of $" << amount << " to AzamPesa is succefully.\n\n";
     break;
 
-     case 5:
+  case 5:
     display();
     break;
 
@@ -131,7 +131,7 @@ x:
   int id;
   char choice;
 
-   cout << "\n\t\t-----CREATE NEW ACCOUNT------\n";
+  cout << "\n\t\t-----CREATE NEW ACCOUNT------\n";
 
   cin.ignore();
   cout << "\n Enter your name: ";
@@ -141,7 +141,7 @@ x:
   cout << "\nEnter your Password: ";
   cin >> password;
 
-   cout << jina << "\n\n\tyou have succeful create your account. Place \"Y\" to go to Menu: ";
+  cout << jina << "\n\n\tyou have succeful create your account. Place \"Y\" to go to Menu: ";
   cin >> choice;
   if (choice = 'y')
   {
@@ -153,5 +153,4 @@ x:
   }
 
   goto x;
-
 }
