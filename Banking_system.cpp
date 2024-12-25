@@ -123,7 +123,7 @@ m:
 
 void account()
 {
-m:
+x:
   system("cls");
 
   string jina;
@@ -151,5 +151,7 @@ m:
   {
     cout << "\n\n\tIvalid choice.";
   }
+
+  goto x;
 
 }
