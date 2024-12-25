@@ -143,5 +143,13 @@ m:
 
    cout << jina << "\n\n\tyou have succeful create your account. Place \"Y\" to go to Menu: ";
   cin >> choice;
+  if (choice = 'y')
+  {
+    display();
+  }
+  else
+  {
+    cout << "\n\n\tIvalid choice.";
+  }
 
 }
