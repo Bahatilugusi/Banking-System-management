@@ -130,4 +130,15 @@ m:
   string password;
   int id;
   char choice;
+
+   cout << "\n\t\t-----CREATE NEW ACCOUNT------\n";
+
+  cin.ignore();
+  cout << "\n Enter your name: ";
+  getline(cin, jina);
+  cout << "\nEnter your ID: ";
+  cin >> id;
+  cout << "\nEnter your Password: ";
+  cin >> password;
+
 }
