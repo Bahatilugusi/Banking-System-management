@@ -141,4 +141,7 @@ m:
   cout << "\nEnter your Password: ";
   cin >> password;
 
+   cout << jina << "\n\n\tyou have succeful create your account. Place \"Y\" to go to Menu: ";
+  cin >> choice;
+
 }
