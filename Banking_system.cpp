@@ -130,4 +130,4 @@ m:
   string password;
   int id;
   char choice;
-
+}
