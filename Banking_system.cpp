@@ -9,6 +9,9 @@ void simBanking();
 struct Account
 {
   double balance = 0;
+  string jina;
+  string password;
+  int id;
 };
 
 int main()
@@ -130,24 +133,22 @@ m:
 void account()
 {
 x:
+  Account a;
   system("cls");
 
-  string jina;
-  string password;
-  int id;
   char choice;
 
   cout << "\n\t\t-----CREATE NEW ACCOUNT------\n";
 
   cin.ignore();
   cout << "\n Enter your name: ";
-  getline(cin, jina);
+  getline(cin, a.jina);
   cout << "\nEnter your ID: ";
-  cin >> id;
+  cin >> a.id;
   cout << "\nEnter your Password: ";
-  cin >> password;
+  cin >> a.password;
 
-  cout << jina << "\n\n\tyou have succeful create your account. Place \"Y\" to go to Menu: ";
+  cout << a.jina << "\n\n\tyou have succeful create your account. Place \"Y\" to go to Menu: ";
   cin >> choice;
   if (choice = 'y')
   {
