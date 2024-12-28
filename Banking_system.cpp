@@ -6,6 +6,11 @@ void display();
 void account();
 void simBanking();
 
+struct Account
+{
+  double balance = 0;
+};
+
 int main()
 {
   system("cls");
@@ -15,7 +20,8 @@ int main()
 void display()
 {
   system("cls");
-  double balance = 0;
+  Account a;
+  // double balance = 0;
   double cash;
   int choice;
 
@@ -38,23 +44,23 @@ void display()
       account();
       break;
     case 2:
-      cout << "\n\t\tYour initial balance is $" << balance;
+      cout << "\n\t\tYour initial balance is $" << a.balance;
       break;
 
     case 3:
       cout << "\nEnter amount of Money to Depose: ";
       cin >> cash;
-      balance += cash;
-      cout << "\n\t Your new Balance is $" << balance;
+      a.balance += cash;
+      cout << "\n\t Your new Balance is $" << a.balance;
       break;
 
     case 4:
       cout << "\nEnter amount of Money to Withdraw: ";
       cin >> cash;
-      if (balance >= cash)
+      if (a.balance >= cash)
       {
-        balance -= cash;
-        cout << "\n\tYour new balance is $" << balance;
+        a.balance -= cash;
+        cout << "\n\tYour new balance is $" << a.balance;
       }
       else
       {
