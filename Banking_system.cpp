@@ -24,7 +24,6 @@ void display()
 {
   system("cls");
   Account a;
-  // double balance = 0;
   double cash;
   int choice;
 
